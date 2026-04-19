@@ -32,8 +32,11 @@ export function Header() {
       )}
     >
       <nav className="container mx-auto px-6 flex items-center justify-between md:px-[24]">
-        <a href="/" className="flex items-center gap-2 group" onClick={scrollToTop}>
-          <img src="/images/hously-logo.svg" alt="Пространство" width={120} height={32} className="w-auto h-6" />
+        <a href="/" className="flex items-center gap-2.5 group" onClick={scrollToTop}>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M3 10.5L12 3L21 10.5V21H15V15H9V21H3V10.5Z" fill="#FFC981"/>
+          </svg>
+          <span className="text-white font-semibold tracking-[0.15em] uppercase text-sm">Загород</span>
         </a>
 
         <ul className="hidden md:flex items-center gap-10 text-sm tracking-wide">
